@@ -1,3 +1,3 @@
 #!/bin/sh
 
-npm run grab -- --channels=/config/channels.xml -o $OUTPUT
+npm run grab -- "--channels=$EPG_CHANNELS" "--output=$EPG_OUTPUT"
